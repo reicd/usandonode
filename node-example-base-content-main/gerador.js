@@ -18,6 +18,7 @@ const responseSchema = {
             "descricao": { "type": "STRING", "description": "Descrição concisa da tecnologia." },
             "data_criacao": { "type": "STRING", "description": "Ano de criação/lançamento (ex: '2013')." },
             "link": { "type": "STRING", "description": "URL oficial ou de documentação principal." },
+            "criador": { "type": "STRING", "description": "Nome do criador ou criadores da tecnologia." },
             "tags": {
                 "type": "ARRAY",
                 "description": "Array de 3 a 5 strings que categorizam a tecnologia (ex: 'frontend', 'banco de dados', 'framework', 'linguagem de programação').",
